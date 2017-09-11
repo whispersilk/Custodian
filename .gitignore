@@ -1,0 +1,13 @@
+# Development-instance bot token.
+/src/main/resources/token.txt
+
+# Gradle files.
+/.gradle
+
+# Build files.
+/build
+
+# Exclude development-instance resource files but include samples.
+/src/main/resources/**
+!/src/main/resources/**/sample.*
+!/src/main/resources/sample/**

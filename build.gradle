@@ -1,0 +1,21 @@
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+mainClassName = 'custodian.Main'
+
+repositories {
+    jcenter()
+    mavenCentral()
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+dependencies {
+    compile 'com.github.austinv11:Discord4j:2.8.4'
+    compile 'org.codehaus.groovy:groovy-all:2.4.12'
+    //compile 'com.google.guava:guava:19.0'
+    //compile 'com.google.gdata:core:1.47.1'
+    //compile 'com.google.api-client:google-api-client:1.21.0'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+}

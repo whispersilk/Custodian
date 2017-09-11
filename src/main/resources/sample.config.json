@@ -1,0 +1,14 @@
+{
+    "avatar": "",
+    "username": "Custodian",
+    "status": "online",
+    "playing": "",
+    "streamUrl": "",
+
+    "owner": 123456789876543210,
+    "logLevel": "warn",
+    "tokenFile": "bot_token.txt",
+    "googleOAuthFile": "",
+
+    "trigger": "~"
+}
